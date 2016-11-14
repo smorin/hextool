@@ -1,0 +1,23 @@
+00000000: 7A 7A 7A 7A 7A 7A 7A 7A  7A 7A 7A 7A 7A 7A 7A 7A  zzzzzzzzzzzzzzzz
+00000010: 7A 7A 7A 7A 7A 7A 7A 7A  7A 7A 7A 7A 7A 7A 7A 7A  zzzzzzzzzzzzzzzz
+00000020: 7A 7A 7A 7A 7A 7A 7A 7A  7A 7A 7A 7A 7A 7A 7A 7A  zzzzzzzzzzzzzzzz
+00000000: 6F 6F 6F 6F 6F 6F 6F 6F  6F 6F 6F 6F 6F 6F 6F 6F  oooooooooooooooo
+00000010: 6F                                                o
+00000000: 70 70 70 70 70 70 70 70  70 70 70 70 70 70 70 70  pppppppppppppppp
+00000010: 70 70 70 70 70 70 70 70                           pppppppp
+00000000: 71 71 71 71 71 71 71 71  71 71 71 71 71 71 71 71  qqqqqqqqqqqqqqqq
+00000010: 71 71 71 71 71 71 71 71  71 71                    qqqqqqqqqq
+00000000: 6C 69 6E 65 0A 66 65 65  64 0D 0A 74 65 73 74     line.feed..test
+00000000: 00 00 00 5B 68 65 78 64  75 6D 70 5D 00 00 00 00  ...[hexdump]....
+00000010: 00 11 22 33 44 55 66 77  88 99 0A BB CC DD EE FF  .."3DUfw........
+---
+00000000: 00 00 00 5B 68 65 78 64  75 6D 70 5D 00 00 00 00  ...[hexdump]....
+00000010: 00 11 22 33 44 55 66 77  88 99 0A BB CC DD EE FF  .."3DUfw........
+return output
+return generator
+restore check passed
+restore far format passed
+restore scapy format passed
+---[test file hexdumping]---
+00000000: 00 00 00 5B 68 65 78 64  75 6D 70 5D 00 00 00 00  ...[hexdump]....
+00000010: 00 11 22 33 44 55 66 77  88 99 0A BB CC DD EE FF  .."3DUfw........
